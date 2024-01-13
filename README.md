@@ -48,14 +48,19 @@ Jafr allows users to add meetings. The user is first prompted for a meeting desc
 
 Please enter a meeting description:
 <meeting description>
+
 Please enter a date:
 <scheduled date>
+
 Please enter a time:
 <scheduled time>
+
 Ok, I have added <meeting description> on <scheduled date> at <scheduled time>.
+
 Jafr should then modify meetings.md appropriately. A meeting is appended to the bottom of meetings.md as follows.
 
 ##### added by you
+
 - <meeting>
 The user is also prompted to optionally enter people to share the meeting with.
 
