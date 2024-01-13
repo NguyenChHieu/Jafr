@@ -22,10 +22,10 @@ Jafr will ask:
 _"Which directory would you like Jafr to use?"_
 
 The user enters an absolute path.
-_<absolute path>_
+<absolute path>
 
 Jafr then writes a confirmation message to standard output.
-_Master directory changed to <absolute path>._
+Master directory changed to <absolute path>.
 
 **Completing tasks**
 
