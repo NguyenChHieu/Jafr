@@ -9,6 +9,7 @@ There are two kinds of reminders: tasks and meetings.
 Jafr runs when jafr.py is executed by the Python interpreter. There is one command line argument which will contain a path (absolute or relative) to a given passwd file. More on this below.
 
 _For example_
+
 python3 jafr.py passwd
 Jafr first displays relevant reminders (tasks followed by meetings), before showing a menu. The menu contains the following.
 
@@ -23,11 +24,12 @@ What would you like to do?
 A user chooses one option only.
 
 <menu num>
+  
 This invokes the relevant behaviour, described below. If the user enters 6, Jafr exits. After completing a behaviour, Jafr returns to the menu.
 
 _For example_
 
-Just a friendly reminder! You have these tasks to finish today.
+_Just a friendly reminder! You have these tasks to finish today.
 - Read INFO1112 A1 specs
 - Fix bug 1 inside Jafr
 - Study ELEC1601
@@ -52,7 +54,7 @@ What would you like to do?
 3. Share a task.
 4. Share a meeting.
 5. Change Jafr's master directory.
-6. Exit
+6. Exit_
 
 **Displaying tasks**
 
@@ -60,12 +62,12 @@ Jafr will write two views of tasks to standard output. The first is a view of al
 
 _For example_
 
-Just a friendly reminder! You have these tasks to finish today.
+_Just a friendly reminder! You have these tasks to finish today.
 - Fix bug 1 inside Jafr
 - Study ELEC1601
 These tasks need to be finished in the next three days!
 - Shower by 03/08/23
-- Organise paul's birthday by 04/08/23
+- Organise paul's birthday by 04/08/23_
 
 **Displaying meetings**
 
@@ -73,14 +75,14 @@ Jafr will write two views of meetings to standard output. The first is a view of
 
 _For example_
 
-You have the following meetings today!
+_You have the following meetings today!
 - Michael Mai's welcome party at 18:00
 - Resume writing workshop at 09:00
 - Jafr dev meeting at 13:30
 You have the following meetings scheduled over the next week!
 - Barbenheimer marathon on 06/08/23 at 17:00
 - Academic advice on 02/08/23 at 14:30
-- ELEC1601 group meeting on 03/08/23 at 11:00
+- ELEC1601 group meeting on 03/08/23 at 11:00_
 
 **Changing the user's master directory**
 
@@ -88,7 +90,7 @@ Jafr allows the user to change their chosen master directory.
 
 Jafr will ask:
 
-"Which directory would you like Jafr to use?"
+_"Which directory would you like Jafr to use?"_
 
 The user enters an absolute path.
 
