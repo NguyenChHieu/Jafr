@@ -32,14 +32,15 @@ Master directory changed to <absolute path>.
 Jafr allows the user to mark tasks as completed. The user is first prompted for which task they would like to complete. All not complete tasks are shown and numbered, in the order they appear in tasks.md.
 
 Which task(s) would you like to mark as completed?
-1. <task description> by <due date:DD/MM/YY>
-2. <task description> by <due date:DD/MM/YY>
+1. task description by due date:DD/MM/YY
+2. task description by due date:DD/MM/YY
 [...]
 
 The user then selects task(s) by their number, separated by whitespace.
-_<task num> [<task num> ... <task num>]_
+_task num [task num ... task num]_
 
 Jafr should modify tasks.md appropriately and write a message to standard output. Tasks inside tasks.md are modified in place (in the same line).
+
 _Marked as complete._
 
 **Adding new meetings**
@@ -47,30 +48,31 @@ _Marked as complete._
 Jafr allows users to add meetings. The user is first prompted for a meeting description, then a date, then a time.
 
 Please enter a meeting description:
-<meeting description>
+_meeting description_
 
 Please enter a date:
-<scheduled date>
+_scheduled date_
 
 Please enter a time:
-<scheduled time>
+_scheduled time_
 
-Ok, I have added <meeting description> on <scheduled date> at <scheduled time>.
+Ok, I have added _meeting description_ on _scheduled date_ at _scheduled time_.
 
 Jafr should then modify meetings.md appropriately. A meeting is appended to the bottom of meetings.md as follows.
 
 ##### added by you
+- _meeting_
 
-- <meeting>
 The user is also prompted to optionally enter people to share the meeting with.
 
 Would you like to share this meeting? [y/n]:
 Who would you like to share with?
-<user ID> <user name>
-<user ID> <user name>
+_user ID user name_
+_user ID user name_
 [...]
 
 **Sharing tasks and meetings**
 
 Jafr allows users to share tasks or meetings from their own tasks.md and meetings.md files with other users.
-The user is first prompted for which task (or meeting) they would like to share. They are shown all tasks (or meetings) regardless of completion or scheduled date.
+The user is first prompted for which task (or meeting) they would like to share. 
+They are shown all tasks (or meetings) regardless of completion or scheduled date.
