@@ -8,8 +8,7 @@ There are two kinds of reminders: tasks and meetings.
 
 Jafr runs when jafr.py is executed by the Python interpreter. There is one command line argument which will contain a path (absolute or relative) to a given passwd file. More on this below.
 
-For example
-
+_For example_
 python3 jafr.py passwd
 Jafr first displays relevant reminders (tasks followed by meetings), before showing a menu. The menu contains the following.
 
@@ -20,6 +19,7 @@ What would you like to do?
 4. Share a meeting.
 5. Change Jafr's master directory.
 6. Exit
+
 A user chooses one option only.
 
 <menu num>
